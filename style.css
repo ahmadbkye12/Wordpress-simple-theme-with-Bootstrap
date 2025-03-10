@@ -1,0 +1,117 @@
+/*
+Theme Name: Injaz Simple Theme
+Theme URI: https://github.com/ahmadbkye12/Wordpress-simple-theme-with-Bootstrap
+Description: this template has been designed by InjazDev
+Version: 1
+Author: InjazDev
+Author URI: http://www.instagram.com/ahmadbkye12
+*/
+body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+ 
+}
+#wrap {
+    padding: 10px;
+    min-height: -webkit-calc(100% - 100px);     /* Chrome */
+   
+    min-height: calc(100% - 100px);     /* native */
+}
+.main-container {
+    width: 100%;
+    /*max-width: 1200px;*/
+    margin: 0 auto;
+    overflow: hidden;
+   
+    background: #fff;
+    position: relative;
+     margin-top: 50px !important;
+
+    /* box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.17); */
+}
+.main-container >.row{
+  margin-bottom: 5px;
+}
+
+.footer .row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.scrolling-navbar{
+  background: '#eee';
+}
+        main {
+          padding-top: 5rem;
+          padding-bottom: 2rem;
+        }
+        html,
+        body {
+            height: 100%;
+            direction: rtl;
+            text-align: right;
+        }
+        /* Navigation*/
+
+
+        .navbar-transparent:not(.top-nav-collapse) {
+            background-color: transparent!important;
+        }
+
+
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+        /* Carousel*/
+
+        .carousel {
+            height: 50%;
+        }
+
+       
+      
+      
+        .carousel-inner {
+            height: 100%;
+        }
+        .carousel-item.active {
+            height: 100%;
+        }
+        /*Caption*/
+
+        .flex-center {
+            color: #fff;
+        }
+
+        
+        .cat-item {
+          position: relative;
+          display: block;
+          padding: .75rem 1.25rem;
+          margin-bottom: -1px;
+          background-color: #fff;
+          border: 1px solid #ddd;
+        }
+        .current-cat{
+          z-index: 2;
+          color: #fff;
+          background-color: #0091ea;
+          border-color: #0091ea;
+        }
+        .current-cat>a{
+          color: #fff;  
+        }
+
+        .widget-item ul {
+          padding-left: 0;
+          list-style-type: none;
+
+        }       
+            
+ @media (max-width: 776px) {
+            .carousel {
+                height: 100%;
+            }
+        }
+   
